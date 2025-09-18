@@ -1,0 +1,68 @@
+/* ---------- General Styling ---------- */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* ---------- Card Styling ---------- */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* ---------- Alerts ---------- */
+.alert {
+    font-size: 1.1rem;
+    border-radius: 12px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.alert-success::before {
+    content: "✔️ ";
+    margin-right: 8px;
+}
+.alert-danger::before {
+    content: "❌ ";
+    margin-right: 8px;
+}
+.alert-info::before {
+    content: "ℹ️ ";
+    margin-right: 8px;
+}
+.alert-warning::before {
+    content: "⚠️ ";
+    margin-right: 8px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
