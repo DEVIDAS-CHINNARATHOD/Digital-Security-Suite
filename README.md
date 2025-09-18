@@ -17,16 +17,7 @@ A comprehensive set of cybersecurity tools designed to educate users and provide
   - Display detection reports  
 - **Folder:** `KeyloggerGuard/`  
 
-### 2️⃣ **PassGuard**
-- **Purpose:** Check password strength and detect if passwords have been leaked.  
-- **Description:** PassGuard helps users create strong passwords and checks whether existing passwords have been compromised in known data breaches. Provides real-time feedback and suggestions for improving password security.  
-- **Features:**  
-  - Real-time password strength evaluation  
-  - Suggestions for stronger passwords  
-  - Leak detection against known breached databases  
-- **Folder:** `PassGuard/`  
-
-### 3️⃣ **PhishNet**
+#### 2️⃣ **PhishNet**
 - **Purpose:** Detect phishing URLs and protect users online.  
 - **Description:** PhishNet allows users to input URLs to verify if they are safe or potentially malicious. Checks for common phishing patterns and alerts the user with a safety score.  
 - **Features:**  
@@ -34,17 +25,7 @@ A comprehensive set of cybersecurity tools designed to educate users and provide
   - Detect common phishing patterns (fake domains, missing HTTPS, etc.)  
   - Display safety score and warnings  
 - **Folder:** `PhishNet/`  
-
-### 4️⃣ **SecureVault**
-- **Purpose:** Encrypt and decrypt text or files securely.  
-- **Description:** SecureVault ensures secure storage and sharing of sensitive data. Users can encrypt messages or files with AES or RSA encryption and decrypt them with the proper key. Demonstrates both symmetric and asymmetric encryption.  
-- **Features:**  
-  - AES/RSA encryption for files and text  
-  - Encrypt and decrypt text or files  
-  - Demonstrates symmetric vs asymmetric encryption  
-- **Folder:** `SecureVault/`  
-
----
+ 
 
 ## **Technologies Used**
 - **Languages:** Python, JavaScript (React optional)  
